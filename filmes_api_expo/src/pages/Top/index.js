@@ -24,7 +24,7 @@ export default function TopRated() {
 
             const response = await api.get('/movie/top_rated', {
                 params: {
-                    api_key: 'e3557a63a0916ff565660d0e9b496cba',
+                    api_key: '',
                     language: 'pt-BR',
                 }
             })
